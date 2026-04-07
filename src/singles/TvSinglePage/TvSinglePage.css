@@ -1,0 +1,104 @@
+.tvPageSection{
+    display:flex;
+    
+}
+
+.tvPageDetails{
+    margin:15px 15px 15px 0px;
+    padding:20px;
+    
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+.tvPageImg{
+    width: 350px;
+    height: 350px;
+    
+    
+    overflow: hidden;
+    background: #fff;
+
+}
+.tvPageImg img{
+    width:100%;
+    height: 350px;
+    object-fit: cover;
+    
+}
+.tvPageCompany{
+    margin-bottom: 10px;
+}
+.tvPageModel{
+    margin-bottom: 10px;
+}
+.tvPagePrice{
+    margin-bottom: 10px;
+}
+.tvPageDesc{
+   margin-bottom: 10px;
+}
+.tvBtnSection{
+    display: flex;
+    margin:20px 0px;
+}
+.buyBtn button{
+  /* height:50px;
+  width:100px; */
+  width: 10rem;
+  padding:15px;
+  background-color: green;
+  color:white;
+  border:none;
+  border-radius: 5px;
+  margin-right: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.cartBtn button{
+  /* height:50px;
+  width:100px; */
+  width: 10rem;
+  padding:15px;
+  background-color: red;
+  color:white;
+  border:none;
+  border-radius: 5px;
+  margin-right: 15px; 
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.cart-btn button.added{
+    background-color:green;
+    color:black;
+}
+@media (max-width: 768px) {
+    .tvPageSection{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .tvPageImg img{
+        width: 100%;
+    }
+   .tvPageDetails{
+        align-items: center;
+   }
+}
+@media (max-width: 480px) {
+    .tvPageSection{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .tvPageImg img{
+        width: 100%;
+    }
+    .tvPageDetails{
+        align-items: center;
+    }
+    
+}

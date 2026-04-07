@@ -1,0 +1,88 @@
+.compSection{
+    display:flex;
+    
+}
+
+.compDetails{
+    margin:15px;
+    padding:20px;
+}
+.compImg img{
+    width:100%;
+}
+.compCompany{
+    margin-bottom: 10px;
+}
+.compModel{
+    margin-bottom: 10px;
+}
+.compPrice{
+    margin-bottom: 10px;
+}
+.compDesc{
+   margin-bottom: 10px;
+}
+.compBtnSection{
+    display: flex;
+    margin:20px 0px;
+}
+.buyBtn button{
+  /* height:50px;
+  width:100px; */
+  width: 10rem;
+  padding:15px;
+  background-color: blue;
+  color:white;
+  border:none;
+  border-radius: 5px;
+  margin-right: 15px;
+  /* cursor: pointer;
+  transition: 0.3s; */
+  font-weight: bold;
+}
+
+.cartBtn button{
+  /* height:50px;
+  width:100px; */
+  width: 10rem;
+  padding:15px;
+  background-color: red;
+  color:white;
+  border:none;
+  border-radius: 5px;
+  margin-right: 15px; 
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.cart-btn button.added{
+    background-color:green;
+    color:black;
+}
+@media (max-width: 768px) {
+    .compSection{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .compImg img{
+        width: 100%;
+    }
+   .compDetails{
+        align-items: center;
+   }
+}
+@media (max-width: 480px) {
+    .compSection{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .compImg img{
+        width: 100%;
+    }
+    .compDetails{
+        align-items: center;
+    }
+    
+}

@@ -1,0 +1,107 @@
+.fridgePageSection{
+    display:flex;
+    
+}
+
+.fridgePageDetails{
+    margin:15px 15px 15px 0px;
+    padding:20px;
+    
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+.fridgePageImg{
+    width: 350px;
+    height: 350px;
+    
+    
+    overflow: hidden;
+    background: #fff;
+
+}
+.fridgePageImg img{
+    width:100%;
+    height: 350px;
+    object-fit: cover;
+    
+}
+.fridgePageCompany{
+    margin-bottom: 10px;
+}
+.fridgePageModel{
+    margin-bottom: 10px;
+}
+.fridgePagePrice{
+    margin-bottom: 10px;
+}
+.fridgePageDesc{
+   margin-bottom: 10px;
+}
+.fridgeBtnSection{
+    display: flex;
+    margin:20px 0px;
+}
+.buyBtn button{
+  /* height:50px;
+  width:100px; */
+  width: 10rem;
+  padding:15px;
+  background-color: blue;
+  color:white;
+  border:none;
+  border-radius: 5px;
+  margin-right: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+/* .buyBtn button:hover{
+    background-color: aqua;
+    color:black;
+} */
+.cartBtn button{
+  /* height:50px;
+  width:100px; */
+  width: 10rem;
+  padding:15px;
+  background-color: red;
+  color:white;
+  border:none;
+  border-radius: 5px;
+  margin-right: 15px; 
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.cart-btn button.added{
+    background-color:green;
+    color:black;
+}
+@media (max-width: 768px) {
+    .fridgePageSection{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .fridgePageImg img{
+        width: 100%;
+    }
+   .fridgePageDetails{
+        align-items: center;
+   }
+}
+@media (max-width: 480px) {
+    .fridgePageSection{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .fridgePageImg img{
+        width: 100%;
+    }
+    .fridgePageDetails{
+        align-items: center;
+    }
+    
+}

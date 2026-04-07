@@ -1,0 +1,14 @@
+.bannerSection{
+    width:100%;
+    overflow: hidden;
+    margin:0px 10px;
+}
+.banner img{
+    width:100%;
+    height:auto;
+    display:block;
+    height: 350px;
+    object-fit:contain;
+    
+    
+}

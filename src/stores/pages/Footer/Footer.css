@@ -1,0 +1,83 @@
+.FooterSection{
+    background-color:rgb(63, 50, 50);
+    color:white;
+    padding: 10px;
+    margin-top: 20px;
+}
+.footerDetailsSection{
+    display: flex;
+    justify-content: space-between;
+    margin:20px;
+}
+.footerTitle h2{
+    color: rgb(236, 157, 9);
+    font-weight: 500;
+    margin:20px;
+    font-size: 35px;
+    margin-top: 20px;
+}
+.footerAbout h3{
+    text-decoration: underline;
+    padding: 5px 0px;
+}
+.footerMagazine h3{
+    text-decoration: underline;
+    padding: 5px 0px;
+}
+.footerProf h3{
+    text-decoration: underline;
+    padding: 5px 0px;
+}
+.footerMerchants h3{
+    text-decoration: underline;
+    padding: 5px 0px;
+}
+.socialMediaSection{
+    display: flex;
+    align-items: center;
+    margin:15px;
+    justify-content: center;
+    justify-content: space-between;
+}
+@media (max-width: 480px){
+    .footerDetailsSection{
+        flex-wrap: wrap;
+    }
+    .footerAbout,
+    .footerMagazine {
+        width: 48%;
+        white-space: nowrap;
+    }
+    .footerProf,
+    .footerMerchants {
+        display: none;
+    }
+    .footerTitle h2{
+        font-size: 25px;
+    }
+    .socialMediaSection{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .footerDetailsSection{
+        flex-wrap: wrap;
+    }
+    .footerAbout,
+    .footerMagazine,
+    .footerProf,
+    .footerMerchants {
+        width: 48%;
+        white-space: nowrap;
+        
+        gap: 40px;
+    }
+    .footerTitle h2{
+        font-size: 30px;
+    }
+    .socialMediaSection{
+        flex-direction: column;
+        gap: 10px;
+    }
+}

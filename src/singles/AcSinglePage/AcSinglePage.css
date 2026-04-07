@@ -1,0 +1,105 @@
+.acPageSection{
+    display:flex;
+    
+}
+
+.acPageDetails{
+    margin:15px 15px 15px 0px;
+    padding:20px;
+    
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+.acPageImg{
+    width: 350px;
+    height: 350px;
+    
+    
+    overflow: hidden;
+    background: #fff;
+
+}
+.acPageImg img{
+    width:100%;
+    height: 350px;
+    object-fit: cover;
+    
+}
+.acPageCompany{
+    margin-bottom: 10px;
+}
+.acPageModel{
+    margin-bottom: 10px;
+}
+.acPagePrice{
+    margin-bottom: 10px;
+}
+.acPageDesc{
+   margin-bottom: 10px;
+}
+.acBtnSection{
+    display: flex;
+    margin:20px 0px;
+}
+.buyBtn button{
+  /* height:50px;
+  width:100px; */
+  width: 10rem;
+  padding:15px;
+  background-color: blue;
+  color:white;
+  border:none;
+  border-radius: 5px;
+  margin-right: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+
+.cartBtn button{
+  /* height:50px;
+  width:100px; */
+  width: 10rem;
+  padding:15px;
+  background-color: red;
+  color:white;
+  border:none;
+  border-radius: 5px;
+  margin-right: 15px; 
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.cart-btn button.added{
+    background-color:green;
+    color:black;
+}
+@media (max-width: 768px) {
+    .acPageSection{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .acPageImg img{
+        width: 100%;
+    }
+   .acPageDetails{
+        align-items: center;
+   }
+}
+@media (max-width: 480px) {
+    .acPageSection{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .acPageImg img{
+        width: 100%;
+    }
+    .acPageDetails{
+        align-items: center;
+    }
+    
+}

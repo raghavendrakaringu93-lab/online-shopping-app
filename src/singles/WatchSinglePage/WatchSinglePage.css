@@ -1,0 +1,88 @@
+.watchPageSection{
+    display:flex;
+    
+}
+
+.watchDetails{
+    margin:15px;
+    padding:20px;
+}
+.watchImg img{
+    width:100%;
+}
+.watchCompany{
+    margin-bottom: 10px;
+}
+.watchModel{
+    margin-bottom: 10px;
+}
+.watchPrice{
+    margin-bottom: 10px;
+}
+.watchDesc{
+   margin-bottom: 10px;
+}
+.watchBtnSection{
+    display: flex;
+    margin:20px 0px;
+}
+.buyBtn button{
+  /* height:50px;
+  width:100px; */
+  width: 10rem;
+  padding:15px;
+  background-color: blue;
+  color:white;
+  border:none;
+  border-radius: 5px;
+  margin-right: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.cartBtn button{
+  /* height:50px;
+  width:100px; */
+  width: 10rem;
+  padding:15px;
+  background-color: red;
+  color:white;
+  border:none;
+  border-radius: 5px;
+  margin-right: 15px; 
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.cart-btn button.added{
+    background-color:green;
+    color:black;
+}
+@media (max-width: 768px) {
+    .watchPageSection{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .watchImg img{
+        width: 100%;
+    }
+   .watchDetails{
+        align-items: center;
+   }
+}
+@media (max-width: 480px) {
+    .watchPageSection{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .watchImg img{
+        width: 100%;
+    }
+    .watchDetails{
+        align-items: center;
+    }
+    
+}

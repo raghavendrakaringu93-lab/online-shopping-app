@@ -49,53 +49,53 @@ const Navbar = () => {
                       isActive ?  "nav-link active": "nav-link"}>
                         <li>For you</li>
                     </NavLink>
-                    <NavLink to='/Mobiles' className={() => 
-                      (location.pathname === '/Mobiles' || location.pathname.startsWith('/mobile')) ? "nav-link active" : "nav-link"}>
+                    <NavLink to='/pagemobiles' className={() => 
+                      (location.pathname === '/pagemobiles' || location.pathname.startsWith('/mobile')) ? "nav-link active" : "nav-link"}>
                         
                         <li>Mobiles</li>
                     </NavLink>
-                    <NavLink to='/Computers' className={() => 
-                      (location.pathname === '/Computers' || location.pathname.startsWith('/computer')) ? "nav-link active" : "nav-link"}>
+                    <NavLink to='/pagecomputers' className={() => 
+                      (location.pathname === '/pagecomputers' || location.pathname.startsWith('/computer')) ? "nav-link active" : "nav-link"}>
                          <li>Computers</li>
                     </NavLink>
-                    <NavLink to='/Watches' className={() => 
-                      (location.pathname === '/Watches' || location.pathname.startsWith('/watch')) ? "nav-link active" : "nav-link"}>
+                    <NavLink to='/pagewatches' className={() => 
+                      (location.pathname === '/pagewatches' || location.pathname.startsWith('/watch')) ? "nav-link active" : "nav-link"}>
                         <li>Watches</li>
                     </NavLink>
-                    <NavLink to='/Mens' className={() => 
-                      (location.pathname === '/Mens' || location.pathname.startsWith('/men')) ? "nav-link active" : "nav-link"}>
+                    <NavLink to='/pagemens' className={() => 
+                      (location.pathname === '/pagemens' || location.pathname.startsWith('/men')) ? "nav-link active" : "nav-link"}>
                         <li>MensFashion</li>
                     </NavLink>
-                    <NavLink to='/Women' className={() => 
-                      (location.pathname === '/Women' || location.pathname.startsWith('/women')) ? "nav-link active" : "nav-link"}>
+                    <NavLink to='/pagewomen' className={() => 
+                      (location.pathname === '/pagewomen' || location.pathname.startsWith('/women')) ? "nav-link active" : "nav-link"}>
                         <li>Woman</li>
                     </NavLink>
-                    <NavLink to="/Furniture" className={() => 
-                      (location.pathname === '/Furniture' || location.pathname.startsWith('/furniture')) ? "nav-link active" : "nav-link"}>
+                    <NavLink to="/pagefurniture" className={() => 
+                      (location.pathname === '/pagefurniture' || location.pathname.startsWith('/furniture')) ? "nav-link active" : "nav-link"}>
                         <li>Furniture</li>
                     </NavLink>
-                    <NavLink to="/Ac" className={() => 
-                      (location.pathname === '/Ac' || location.pathname.startsWith('/ac')) ? "nav-link active" : "nav-link"}>
+                    <NavLink to="/pageac" className={() => 
+                      (location.pathname === '/pageac' || location.pathname.startsWith('/ac')) ? "nav-link active" : "nav-link"}>
                         <li>Ac</li>
                     </NavLink>
-                    <NavLink to='/Kitchen' className={() => 
-                      (location.pathname === '/Kitchen' || location.pathname.startsWith('/kitchen')) ? "nav-link active" : "nav-link"}>
+                    <NavLink to='/pagekitchen' className={() => 
+                      (location.pathname === '/pagekitchen' || location.pathname.startsWith('/kitchen')) ? "nav-link active" : "nav-link"}>
                         <li>Kitchen</li>
                     </NavLink>
-                    <NavLink to='/Tv' className={() => 
-                      (location.pathname === '/Tv' || location.pathname.startsWith('/tv')) ? "nav-link active" : "nav-link"}>
+                    <NavLink to='/pagetvs' className={() => 
+                      (location.pathname === '/pagetvs' || location.pathname.startsWith('/tv')) ? "nav-link active" : "nav-link"}>
                         <li>Tvs</li>
                     </NavLink>
-                    <NavLink to='/Speakers' className={() => 
-                      (location.pathname === '/Speakers' || location.pathname.startsWith('/speaker')) ? "nav-link active" : "nav-link"}>
+                    <NavLink to='/pagespeakers' className={() => 
+                      (location.pathname === '/pagespeakers' || location.pathname.startsWith('/speaker')) ? "nav-link active" : "nav-link"}>
                         <li>Speakers</li>
                     </NavLink>
-                    <NavLink to='/Fridges' className={() => 
-                      (location.pathname === '/Fridges' || location.pathname.startsWith('/fridge')) ? "nav-link active" : "nav-link"}>
+                    <NavLink to='/pagefridges' className={() => 
+                      (location.pathname === '/pagefridges' || location.pathname.startsWith('/fridge')) ? "nav-link active" : "nav-link"}>
                          <li>Fridges</li>
                     </NavLink>
-                    <NavLink to='/Books' className={() => 
-                      (location.pathname === '/Books' || location.pathname.startsWith('/book')) ? "nav-link active" : "nav-link"}>
+                    <NavLink to='/pagebooks' className={() => 
+                      (location.pathname === '/pagebooks' || location.pathname.startsWith('/book')) ? "nav-link active" : "nav-link"}>
                         <li>Books</li>
                     </NavLink>
                     

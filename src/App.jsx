@@ -42,18 +42,18 @@ const App = () => {
         <Suspense fallback={<h3>Loading....</h3>}>
             <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/Mobiles' element={<MobilesPage />} />
-          <Route path='/Computers' element={<ComputersPage />} />
-          <Route path='/Watches' element={<WatchesPage />} />
-          <Route path='/Mens' element={<MensFashion />} />
-          <Route path='/Women' element={<Women />} />
-          <Route path='/Furniture' element={<Furniture />} />
-          <Route path='/Ac' element={<AcPage />} />
-          <Route path='/Kitchen' element={<KitchenPage />} />
-          <Route path='/Tv' element={<TvsPage />} />
-          <Route path='/Speakers' element={<SpeakersPage />} />
-          <Route path='/Fridges' element={<FridgesPage />} />
-          <Route path='/Books' element={<BooksPage />} />
+          <Route path='/pagemobiles' element={<MobilesPage />} />
+          <Route path='/pagecomputers' element={<ComputersPage />} />
+          <Route path='/pagewatches' element={<WatchesPage />} />
+          <Route path='/pagemens' element={<MensFashion />} />
+          <Route path='/pagewomen' element={<Women />} />
+          <Route path='/pagefurniture' element={<Furniture />} />
+          <Route path='/pageac' element={<AcPage />} />
+          <Route path='/pagekitchen' element={<KitchenPage />} />
+          <Route path='/pagetvs' element={<TvsPage />} />
+          <Route path='/pagespeakers' element={<SpeakersPage />} />
+          <Route path='/pagefridges' element={<FridgesPage />} />
+          <Route path='/pagebooks' element={<BooksPage />} />
           
           <Route path='/mobile/:id' element={<MobileSinglePage />} />
           <Route path='/computer/:id' element={<ComputerSinglePage />} />

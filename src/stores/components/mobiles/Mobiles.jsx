@@ -1,6 +1,6 @@
 import React from 'react'
 import './Mobiles.css'
-import { mobileData } from '../../data/mobiles';
+import { mobileData } from "../../data/mobiles"
 
 
 const Mobiles = () => {

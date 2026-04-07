@@ -5,10 +5,9 @@
   "type": "module",
   "homepage": "https://raghavendrakaringu93-lab.github.io/online-shopping-app",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
-  "deploy": "gh-pages -d dist"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^19.2.0",

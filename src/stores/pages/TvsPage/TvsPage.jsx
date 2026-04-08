@@ -1,13 +1,11 @@
 import React from 'react'
 import './TvsPage.css'
 import {tvData} from '../../data/tv'
-import Navbar from '../../components/navbar/Navbar'
 import { Link } from 'react-router-dom'
 
 const TvsPage = () => {
   return (
         <>
-            <Navbar />
             <div className='tvSection'>
                 {
                     Array.isArray(tvData) && tvData.map((item) => {

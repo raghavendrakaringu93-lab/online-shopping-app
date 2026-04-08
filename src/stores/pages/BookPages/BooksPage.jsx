@@ -1,13 +1,13 @@
 import React from 'react'
 import './BooksPage.css'
 import { booksData } from "../../data/books"
-import Navbar from '../../components/navbar/Navbar'
+
 import { Link } from 'react-router-dom'
 
 const BooksPage = () => {
     return (
         <>
-            <Navbar />
+        
             <div className='booksSection'>
                 {
                     booksData.map((item) => {

@@ -1,13 +1,11 @@
 import React from 'react'
 import './Furniture.css'
 import {furnitureData} from '../../data/furniture'
-import Navbar from '../../components/navbar/Navbar'
 import { Link } from 'react-router-dom'
 
 const Furniture = () => {
     return (
         <>
-            <Navbar />
             <div className='furnitureSection'>
                 {
                     furnitureData.map((item) => {

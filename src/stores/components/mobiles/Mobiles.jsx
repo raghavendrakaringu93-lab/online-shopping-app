@@ -16,7 +16,7 @@ const Mobiles = () => {
             return (
               <div className='imgBox' key={id}>
                 <img className='proImg' src={image} alt="" />
-                <p>{company}</p>
+                 
               </div>
             )
           })

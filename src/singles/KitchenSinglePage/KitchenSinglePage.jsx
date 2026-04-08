@@ -12,23 +12,22 @@ const KitchenSinglePage = () => {
     const product = kitchenData.find((item) => item.id === id);
     return (
         <>
-            <Navbar />
             <div className="kitchPageSection">
                 <div className="kitchPageImg">
                     <img src={product.image} alt="" />
                 </div>
                 <div className="kitchPageDetails">
                     <div className="kitchPageCompany">
-                        <h2>Brand:- {product.brand}</h2>
+                        <h2>Brand: {product.brand}</h2>
                     </div>
                     <div className="kitchPageModel">
-                        <h3>Model:- {product.model}</h3>
+                        <p>Model: {product.model}</p>
                     </div>
                     <div className="kitchPagePrice">
-                        <h2>Price:- ${product.price}</h2>
+                        <h3>Price: ${product.price}</h3>
                     </div>
                     <div className="kitchPageDesc">
-                        <h3>Description:- {product.description}</h3>
+                        <p>Description: {product.description}</p>
                     </div>
                     <div className="kitchBtnSection">
                         <div className="buyBtn">

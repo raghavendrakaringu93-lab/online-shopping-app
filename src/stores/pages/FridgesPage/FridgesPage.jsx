@@ -1,14 +1,13 @@
 import React from 'react'
 import './FridgesPage.css'
 import { fridgeData } from '../../data/fridge'
-import Navbar from '../../components/navbar/Navbar'
 import { Link } from 'react-router-dom'
 
 
 const FridgesPage = () => {
     return (
         <>
-            <Navbar />
+
             <div className='fridgeSection'>
                 {
                     fridgeData.map((item) => {

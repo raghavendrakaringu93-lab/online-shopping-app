@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import './BookSinglePage.css'
 import { useParams } from 'react-router-dom'
 import { booksData } from '../../stores/data/books'
-import Navbar from '../../stores/components/navbar/Navbar'
 import { useCart } from '../../stores/context/CartContext'
 
 const BookSinglePage = () => {
@@ -13,23 +12,22 @@ const BookSinglePage = () => {
     const product = booksData.find((item) => item.id === id);
     return (
         <>
-            <Navbar />
             <div className="bookPageSection">
                 <div className="bookPageImg">
                     <img src={product.image} alt="" />
                 </div>
                 <div className="bookPageDetails">
                     <div className="bookPageCompany">
-                        <h2>Author:- {product.author}</h2>
+                        <h2>Author: {product.author}</h2>
                     </div>
                     <div className="bookPageModel">
-                        <h3>Title:- {product.title}</h3>
+                        <p>Title: {product.title}</p>
                     </div>
                     <div className="bookPagePrice">
-                        <h2>Price:- ${product.price}</h2>
+                        <h2>Price: ${product.price}</h2>
                     </div>
                     <div className="bookPageDesc">
-                        <h3>Description:- {product.description}</h3>
+                        <p>Description: {product.description}</p>
                     </div>
                     <div className="bookBtnSection">
                         <div className="buyBtn">

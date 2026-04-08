@@ -1,14 +1,12 @@
 import React from 'react'
 import './WatchesPage.css'
 import { watchData} from '../../data/watch'
-import Navbar from '../../components/navbar/Navbar'
 import { Link } from 'react-router-dom'
 
 
 const WatchesPage = () => {
   return (
     <>
-      <Navbar/>
       <div className='watchSection'>
         {
             watchData.map((item)=>{

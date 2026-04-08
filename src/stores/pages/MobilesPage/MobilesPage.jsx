@@ -1,13 +1,12 @@
 import React from 'react'
 import { mobileData } from '../../data/mobiles'
 import './MobilesPage.css'
-import Navbar from '../../components/navbar/Navbar';
+
 import { Link } from 'react-router-dom'
 
 function MobilesPage() {
     return (
         <>
-            <Navbar/>
             <div className="mobileSection">
                 {
                     mobileData.map((item) => {

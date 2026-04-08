@@ -1,14 +1,13 @@
 import React from 'react'
 import './UserCart.css'
 import { useCart } from '../../stores/context/CartContext'
-import Navbar from '../../stores/components/navbar/Navbar';
 
 const UserCart = () => {
     const {cartItems, removeFromCart} = useCart();
 
   return (
     <>
-      <Navbar/>
+    
       <div className="cart-container">
         {cartItems.length === 0 ? (
           <div className="emptyCart">

@@ -2,17 +2,7 @@
     padding: 20px;
 }
 
-/* .emptyCart {
-    text-align: center;
-    padding: 50px 20px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    max-width: 400px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-} */
+
 
 .emptyCart h2 {
     color: #333;
@@ -73,8 +63,14 @@
 }
 
 .removeBtn:hover {
-    background-color: #c0392b;
+    background-color: rgb(74, 158, 74);
 }
-.cartSection{
+/* .cartSection{
     display: flex;
+} */
+@media (max-width:576px){
+    .cartSection{
+        display: flex;
+        flex-direction: column;
+    }
 }

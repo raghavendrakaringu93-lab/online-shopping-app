@@ -8,20 +8,37 @@
     width: 100%;
 }
 .ind-details{
-    padding:20px;
-    margin:15px;
+
+    margin-left:25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
-.ind-company{
-    margin-bottom:10px;
+.ind-company h2{
+    /* margin-bottom:10px; */
+    font-size: 24px;
+    font-weight: 600;
+    color: #222;
+    margin: 0;
 }
-.ind-model{
-    margin-bottom:10px;
+.ind-model p{
+    /* margin-bottom:10px; */
+    font-size: 16px;
+    color: #555;
+    margin: 0%;
 }
-.ind-price{
-    margin-bottom:10px;
+.ind-price h3{
+    font-size: 26px;
+    font-weight: 700;
+    color: rgb(105, 87, 87);
+    margin: 6px 0;
 }
-.ind-desc{
-    margin-bottom:10px;
+.ind-desc p{
+    font-size: 20px;
+    width: 100%;
+    color: #271f1f;
+    line-height: 1.6;
+    margin-top: 4px;
 }
 .buttonSection{
     margin:20px 0px;

@@ -4,12 +4,10 @@
 }
 
 .menPageDetails{
-    margin:15px 15px 15px 0px;
-    padding:20px;
-    
-    /* display: flex;
+     margin-left:25px;
+    display: flex;
     flex-direction: column;
-    justify-content: center; */
+    gap: 10px;
 }
 .menPageImg{
     width: 350px;
@@ -23,17 +21,29 @@
     object-fit: cover;
     
 }
-.menPageCompany{
-    margin-bottom: 10px;
+.menPageCompany h2{
+     font-size: 24px;
+    font-weight: 600;
+    color: #222;
+    margin: 0;
 }
-.menPageModel{
-    margin-bottom: 10px;
+.menPageModel p{
+    font-size: 16px;
+    color: #555;
+    margin: 0%;
 }
-.menPagePrice{
-    margin-bottom: 10px;
+.menPagePrice h3{
+    font-size: 26px;
+    font-weight: 700;
+    color: rgb(105, 87, 87);
+    margin: 6px 0;
 }
-.menPageDesc{
-   margin-bottom: 10px;
+.menPageDesc p{
+   font-size: 20px;
+    width: 100%;
+    color: #271f1f;
+    line-height: 1.6;
+    margin-top: 4px;
 }
 .menBtnSection{
     display: flex;
@@ -94,7 +104,7 @@
     .menPageImg img{
         width: 100%;
     }
-    .menPageDetails{
+    .ind-details{
         align-items: center;
     }
     

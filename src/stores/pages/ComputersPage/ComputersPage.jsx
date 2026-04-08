@@ -1,14 +1,13 @@
 import React from 'react'
 import './ComputerPage.css'
 import { computerData } from '../../data/computers'
-import Navbar from '../../components/navbar/Navbar'
 import {Link} from 'react-router-dom'
 
 
 const ComputersPage = () => {
   return (
     <>
-      <Navbar/>
+
       <div className='CompSection'>
           {
             computerData.map((item)=>{

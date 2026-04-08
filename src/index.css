@@ -18,3 +18,7 @@ a{
   width: 95%;
   margin:auto;
 }
+::-webkit-scrollbar{
+  display: none;
+}
+

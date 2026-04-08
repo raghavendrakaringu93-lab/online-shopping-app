@@ -4,23 +4,37 @@
 }
 
 .watchDetails{
-    margin:15px;
-    padding:20px;
+     margin-left:25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .watchImg img{
     width:100%;
 }
-.watchCompany{
-    margin-bottom: 10px;
+.watchCompany h2{
+     font-size: 24px;
+    font-weight: 600;
+    color: #222;
+    margin: 0;
 }
-.watchModel{
-    margin-bottom: 10px;
+.watchModel p{
+    font-size: 16px;
+    color: #555;
+    margin: 0%;
 }
-.watchPrice{
-    margin-bottom: 10px;
+.watchPrice h3{
+    font-size: 26px;
+    font-weight: 700;
+    color: rgb(105, 87, 87);
+    margin: 6px 0;
 }
-.watchDesc{
-   margin-bottom: 10px;
+.watchDesc p{
+   font-size: 20px;
+    width: 100%;
+    color: #271f1f;
+    line-height: 1.6;
+    margin-top: 4px;
 }
 .watchBtnSection{
     display: flex;

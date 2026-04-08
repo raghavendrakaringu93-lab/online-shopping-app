@@ -1,13 +1,11 @@
 import React from 'react'
 import './AcPage.css'
 import { acData } from '../../data/ac'
-import Navbar from '../../components/navbar/Navbar'
 import { NavLink } from 'react-router-dom'
 
 const AcPage = () => {
     return (
         <>
-            <Navbar />
             <div className='acSection'>
                 {
                     acData.map((item) => {

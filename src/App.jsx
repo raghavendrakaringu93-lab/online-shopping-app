@@ -29,6 +29,9 @@ const FridgeSinglePage = React.lazy(() => import("./singles/FridgeSinglePage/Fri
 const BookSinglePage = React.lazy(() => import("./singles/BookSinglePage/BookSinglePage"));
 import Footer from './stores/pages/Footer/Footer'
 import UserCart from './singles/UserCartItems/UserCart'
+import Navbar from './stores/components/navbar/Navbar'
+
+
 
 
 
@@ -39,6 +42,10 @@ const App = () => {
     <div className="app-container">
       
       <div className="app">
+        <div className='navbar'>
+          <Navbar/>
+        </div>
+        
         <Suspense fallback={<h3>Loading....</h3>}>
             <Routes>
           <Route path='/' element={<Home />} />

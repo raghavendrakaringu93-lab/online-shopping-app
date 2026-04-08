@@ -1,13 +1,12 @@
 import React from 'react'
 import './Women.css'
 import { womanData } from '../../data/woman'
-import Navbar from '../../components/navbar/Navbar'
 import { Link } from 'react-router-dom'
 
 const Women = () => {
     return (
         <>
-            <Navbar />
+    
             <div className='womenSection'>
                 {
                     womanData.map((item) => {

@@ -1,13 +1,11 @@
 import React from 'react'
 import "./SpeakersPage.css"
 import { speakerData } from '../../data/speaker'
-import Navbar from '../../components/navbar/Navbar'
 import { Link } from 'react-router-dom'
 
 const SpeakersPage = () => {
     return (
         <>
-            <Navbar />
             <div className='speakerSection'>
                 {
                     speakerData.map((item) => {

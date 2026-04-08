@@ -151,4 +151,8 @@ body.dark .subMenu li {
         white-space: nowrap;
     }
 }
-
+@media (max-width: 481px){
+    .search{
+        display:none;
+    }
+}

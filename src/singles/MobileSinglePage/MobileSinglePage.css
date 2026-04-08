@@ -58,8 +58,8 @@
   cursor: pointer;
   transition: 0.3s;
 }
-.cart-btn button .added{
-    background-color:green;
+.cart-btn button.added{
+    background:green;
     color:black;
 }
 @media (max-width: 768px) {

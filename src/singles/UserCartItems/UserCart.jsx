@@ -17,14 +17,17 @@ const UserCart = () => {
           </div>
         ) : (
           cartItems.map((item)=>{
-              const {image, product, model, price, id} = item;
+              const {image, product, model, company, price, brand, id} = item;
               return (
                  <div className="cartSection" key={id}>
                    <div className="cartImg">
                       <img src={image} alt=""/>
                    </div>
                    <div className="cartDetails">
+                      <h3>{company}</h3>
                       <h3> {product}</h3>
+                      
+                      <h3>{brand}</h3>
                       <h3>{model}</h3>
                       <h2>$ {price}</h2>
                       

@@ -20,8 +20,10 @@ function MobilesPage() {
                                 </div>
                                 </Link>
                                 <div className="mobile-Model">
-                                    <span>{company}</span>
-                                    <span>{model}</span>
+                                    <strong>{company} </strong>
+                                    <p>{model}</p>    
+                                        
+                                    
                                 </div>
                             </div>
 

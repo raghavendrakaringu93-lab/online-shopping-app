@@ -19,7 +19,7 @@ const KitchenSinglePage = () => {
                 </div>
                 <div className="kitchPageDetails">
                     <div className="kitchPageCompany">
-                        <h2>Company:- {product.company}</h2>
+                        <h2>Brand:- {product.brand}</h2>
                     </div>
                     <div className="kitchPageModel">
                         <h3>Model:- {product.model}</h3>
@@ -35,7 +35,7 @@ const KitchenSinglePage = () => {
                             <button>Buy Now</button>
                         </div>
                         <div className="cart-btn">
-                            <button className={added ? "added" : ""} onClick={() => { addToCart(product); setAdded(true); }}>{added? "Added": "Add to Cart"}</button>
+                            <button className={added ? "added" : ""} onClick={() => { addToCart(product); setAdded(true); }}>{added? "Added to cart": "Add to Cart"}</button>
                         </div>
                     </div>
                 </div>

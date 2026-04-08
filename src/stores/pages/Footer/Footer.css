@@ -16,22 +16,17 @@
     font-size: 35px;
     margin-top: 20px;
 }
-.footerAbout h3{
+.footerDetailsSection h4{
     text-decoration: underline;
     padding: 5px 0px;
 }
-.footerMagazine h3{
-    text-decoration: underline;
+.footerDetailsSection p{
     padding: 5px 0px;
+    font-size: 15px;
+    font-weight: 400;
 }
-.footerProf h3{
-    text-decoration: underline;
-    padding: 5px 0px;
-}
-.footerMerchants h3{
-    text-decoration: underline;
-    padding: 5px 0px;
-}
+
+
 .socialMediaSection{
     display: flex;
     align-items: center;
@@ -39,6 +34,27 @@
     justify-content: center;
     justify-content: space-between;
 }
+.socialIcons{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  margin-top:10px;
+}
+
+.socialIcons i{
+  font-size:24px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.socialIcons i:hover{
+  transform:scale(1.2);
+}
+
+.fa-facebook{ color:#1877F2; }
+.fa-instagram{ color:#E4405F; }
+.fa-youtube{ color:red; }
+.fa-twitter{ color:#1DA1F2; }
 @media (max-width: 480px){
     .footerDetailsSection{
         flex-wrap: wrap;

@@ -48,7 +48,7 @@ const SpeakerSinglePage = () => {
                             <button>Buy Now</button>
                         </div>
                         <div className="cart-btn">
-                            <button className={added ? "added" : ""} onClick={() => { addToCart(product); setAdded(true); }}>{added? "Added": "Add to Cart"}</button>
+                            <button className={added ? "added" : ""} onClick={() => { addToCart(product); setAdded(true); }}>{added? "Added to cart": "Add to Cart"}</button>
                         </div>
                     </div>
                 </div>

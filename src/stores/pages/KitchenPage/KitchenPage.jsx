@@ -11,7 +11,7 @@ const KitchenPage = () => {
             <div className='kitchenSection'>
                 {
                     kitchenData.map((item) => {
-                        const { id, image, brand, model } = item;
+                        const { id, image, type, brand } = item;
                         return (
                             <div className="kitchen-card" key={id}>
                                 <Link to={`/kitchen/${item.id}`}>
@@ -20,8 +20,8 @@ const KitchenPage = () => {
                                   </div>
                                 </Link>
                                 <div className="kitchen-Model">
-                                    <strong>{brand}</strong>
-                                    <p>{model}</p>
+                                    <strong>{type}</strong>
+                                    <p>{brand}</p>
                                 </div>
                             </div>
                         )

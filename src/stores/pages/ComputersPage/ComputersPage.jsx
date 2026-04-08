@@ -21,7 +21,9 @@ const ComputersPage = () => {
                       </div> 
                     </Link>
                     <div className="comp-Model">
-                        {company}, {model}
+                        <strong>{company}</strong>
+                        <p>{model}</p>
+                        
                     </div>
                    </div>
                 )

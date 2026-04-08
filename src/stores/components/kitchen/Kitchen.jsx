@@ -9,10 +9,11 @@ const Furniture = () => {
       <div className='proSection'>
         {
           fiveImages.map((item) => {
-            const { image } = item;
+            const { image, brand } = item;
             return (
               <div className='imgBox'>
                 <img className='proImg' src={image} alt="" />
+                <p>{brand}</p>
               </div>
             )
           })

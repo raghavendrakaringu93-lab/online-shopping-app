@@ -1,133 +1,27 @@
-export const furnitureData = [{
-        "id": "1",
-        "product": "Furniture",
-        "image": "/assets/Furniture/1.jpg",
-        "type": "Sofa",
-        "brand": "IKEA",
-        "model": "ComfortPlus",
-        "price": "499.99",
-        "category": "Home",
-        "description": "A comfortable and modern sofa with plush cushions and a sleek design."
-    },
-    {
-        "id": "2",
-        "product": "Furniture",
-        "image": "/assets/Furniture/2.jpg",
-        "type": "Dining Table",
-        "brand": "Wayfair",
-        "model": "ElegantDine",
-        "price": "899.00",
-        "category": "Home",
-        "description": "An elegant dining table with solid wood construction and expandable design."
-    },
-    {
-        "id": "3",
-        "product": "Furniture",
-        "image": "/assets/Furniture/3.jpg",
-        "type": "Bed",
-        "brand": "Ashley ",
-        "model": "DreamRest",
-        "price": "799.50",
-        "category": "Home",
-        "description": "A stylish and comfortable bed with upholstered headboard and durable frame."
-    },
-    {
-        "id": "4",
-        "product": "Furniture",
-        "image": "/assets/Furniture/4.jpg",
-        "type": "Coffee Table",
-        "brand": "West Elm",
-        "model": "ModernBlend",
-        "price": "349.99",
-        "category": "Home",
-        "description": "A modern coffee table with a blend of materials, adding character to your living room."
-    },
-    {
-        "id": "5",
-        "product": "Furniture",
-        "image": "/assets/Furniture/5.jpg",
-        "type": "Wardrobe",
-        "brand": "Houzz",
-        "model": "SpaceSaver",
-        "price": "599.00",
-        "category": "Home",
-        "description": "A space-saving wardrobe with versatile storage compartments and sleek appearance."
-    },
-    {
-        "id": "6",
-        "product": "Furniture",
-        "image": "/assets/Furniture/6.jpg",
-        "type": "Bookshelf",
-        "brand": "Crate & Barrel",
-        "model": "BookHaven",
-        "price": "299.50",
-        "category": "Home",
-        "description": "A functional bookshelf with adjustable shelves, suitable for any room."
-    },
-    {
-        "id": "7",
-        "product": "Furniture",
-        "image": "/assets/Furniture/7.jpg",
-        "type": "Desk",
-        "brand": "Staples",
-        "model": "WorkPro",
-        "price": "199.99",
-        "category": "Office",
-        "description": "A spacious office desk with ergonomic design and ample storage."
-    },
-    {
-        "id": "8",
-        "product": "Furniture",
-        "image": "/assets/Furniture/8.jpg",
-        "type": "Bar Stool",
-        "brand": "Target",
-        "model": "UrbanChic",
-        "price": "89.00",
-        "category": "Home",
-        "description": "An urban chic bar stool with a contemporary look, perfect for kitchen islands."
-    },
-    {
-        "id": "9",
-        "product": "Furniture",
-        "image": "/assets/Furniture/9.jpg",
-        "type": "Dresser",
-        "brand": "Pottery Barn",
-        "model": "RusticCharm",
-        "price": "599.99",
-        "category": "Home",
-        "description": "A rustic dresser with ample storage space and charming distressed finish."
-    },
-    {
-        "id": "10",
-        "product": "Furniture",
-        "image": "/assets/Furniture/10.jpg",
-        "type": "Couch",
-        "brand": "Crate & Barrel",
-        "model": "ComfyLounge",
-        "price": "999.00",
-        "category": "Home",
-        "description": "A comfortable couch with deep seating and modern design, perfect for lounging."
-    },
-    {
-        "id": "11",
-        "product": "Furniture",
-        "image": "/assets/Furniture/11.jpg",
-        "type": "Side Table",
-        "brand": "CB2",
-        "model": "MinimalistSide",
-        "price": "149.50",
-        "category": "Home",
-        "description": "A minimalist side table with clean lines, adding functionality to any space."
-    },
-    {
-        "id": "12",
-        "product": "Furniture",
-        "image": "/assets/Furniture/12.jpg",
-        "type": "Bedside Table",
-        "brand": "Ethan Allen",
-        "model": "ClassicNight",
-        "price": "249.00",
-        "category": "Home",
-        "description": "A classic bedside table with a timeless design and convenient storage."
-    }
-]
+import img1 from "../../../public/assets/Furniture/1.jpg";
+import img2 from "../../../public/assets/Furniture/2.jpg";
+import img3 from "../../../public/assets/Furniture/3.jpg";
+import img4 from "../../../public/assets/Furniture/4.jpg";
+import img5 from "../../../public/assets/Furniture/5.jpg";
+import img6 from "../../../public/assets/Furniture/6.jpg";
+import img7 from "../../../public/assets/Furniture/7.jpg";
+import img8 from "../../../public/assets/Furniture/8.jpg";
+import img9 from "../../../public/assets/Furniture/9.jpg";
+import img10 from "../../../public/assets/Furniture/10.jpg";
+import img11 from "../../../public/assets/Furniture/11.jpg";
+import img12 from "../../../public/assets/Furniture/12.jpg";
+
+export const furnitureData = [
+{ id:"1", image: img1, type:"Sofa", brand:"IKEA", model:"ComfortPlus", price:"499.99", description: "Comfortable sofa combining stylish design with practical construction perfect for family living." },
+{ id:"2", image: img2, type:"Dining Table", brand:"Wayfair", model:"ElegantDine", price:"899.00", description: "Elegant dining table adding sophistication to kitchens accommodating large gatherings and meals." },
+{ id:"3", image: img3, type:"Bed", brand:"Ashley", model:"DreamRest", price:"799.50", description: "Quality bed frame offering sturdy construction and comfortable sleeping surface for restful nights." },
+{ id:"4", image: img4, type:"Coffee Table", brand:"West Elm", model:"ModernBlend", price:"349.99", description: "Modern coffee table featuring contemporary design and functional storage for living areas." },
+{ id:"5", image: img5, type:"Wardrobe", brand:"Houzz", model:"SpaceSaver", price:"599.00", description: "Space-saving wardrobe maximizing storage capacity while maintaining stylish bedroom aesthetics." },
+{ id:"6", image: img6, type:"Bookshelf", brand:"Crate & Barrel", model:"BookHaven", price:"299.50", description: "Spacious bookshelf providing ample storage for books and decorative items any room." },
+{ id:"7", image: img7, type:"Desk", brand:"Staples", model:"WorkPro", price:"199.99", description: "Functional desk ideal for home offices and work spaces promoting productivity." },
+{ id:"8", image: img8, type:"Bar Stool", brand:"Target", model:"UrbanChic", price:"89.00", description: "Stylish bar stool perfect for kitchens combining comfort with contemporary design." },
+{ id:"9", image: img9, type:"Dresser", brand:"Pottery Barn", model:"RusticCharm", price:"599.99", description: "Rustic dresser offering ample drawer storage and classic charm for bedroom furniture." },
+{ id:"10", image: img10, type:"Couch", brand:"Crate & Barrel", model:"ComfyLounge", price:"999.00", description: "Comfortable couch providing spacious seating and relaxation for family entertainment areas." },
+{ id:"11", image: img11, type:"Side Table", brand:"CB2", model:"MinimalistSide", price:"149.50", description: "Minimalist side table adding functional elegance to living spaces and bedroom areas." },
+{ id:"12", image: img12, type:"Bedside Table", brand:"Ethan Allen", model:"ClassicNight", price:"249.00", description: "Classic bedside table offering convenient storage and traditional style for bedroom furniture." }
+];

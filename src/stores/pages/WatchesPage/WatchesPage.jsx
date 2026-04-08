@@ -22,7 +22,8 @@ const WatchesPage = () => {
                     
                     </Link>
                     <div className="watch-Model">
-                        {brand}, {model}
+                       <strong>{brand}</strong>
+                       <p>{model}</p> 
                     </div>
                   </div>
                 )

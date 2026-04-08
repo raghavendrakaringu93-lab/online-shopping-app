@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState} from 'react'
 import { mobileData } from '../../stores/data/mobiles'
 import { useParams } from 'react-router-dom'
 import './MobileSinglePage.css'
@@ -14,12 +14,14 @@ const MobileSinglePage = () => {
     const {CartItems, addToCart} = useCart();
 
     const product = mobileData.find((item) => item.id === id);
+    
+    
 
     
     return (
         <>
             <Navbar/>
-            <div className='ind-section'>
+            <div className='ind-section' key={product.id}>
                 <div className="ind-image">
                     <img src={product.image} alt="" />
                 </div>
@@ -41,7 +43,7 @@ const MobileSinglePage = () => {
                             <button>Buy Now</button>
                         </div>
                         <div className="cart-btn">
-                            <button className={added? "added": ""} onClick={()=>{addToCart(product); setAdded(true);}}>{added? "Added": "Add to Cart"}</button>
+                            <button className={added? "added": ""} onClick={()=>{addToCart(product); setAdded(true);}}>{added? "Added to cart": "Add to Cart"}</button>
                         </div>
                     </div>
                 </div>

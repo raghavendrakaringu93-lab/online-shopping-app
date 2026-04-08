@@ -10,10 +10,11 @@ const Computers = () => {
             <div className='proSection'>
                 {
                     ExImages.map((item) => {
-                        const { image, id } = item
+                        const { image, id, company } = item
                         return (
                             <div className="imgBox" key={id}>
                                 <img className='proImg' src={image} alt="" />
+                                <p>{company}</p>
                             </div>
                         )
                     })

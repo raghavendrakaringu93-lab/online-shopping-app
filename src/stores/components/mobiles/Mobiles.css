@@ -3,6 +3,8 @@
     /* border: 2px solid rgb(233, 160, 26); */
     margin-bottom: 20px;
     overflow-x: auto;
+    /* justify-content: space-between; */
+    gap: 20px;
     scroll-behavior: smooth;
     
 
@@ -11,16 +13,31 @@
     display: none; /* Hide scrollbar for WebKit browsers */
 }
 .imgBox{
-    width:80%;
+    min-width: 180px;
+    height: 300px;
     padding:10px;
+    margin: 8px;
+    border-radius: 8px;
+    overflow: hidden;
+    line-height: 0;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+    
     
     
     
 }
+.imgBox p{
+    text-align: center;
+    margin-top: 3px;
+    font-size: 16px;
+    color: #333;
+}
 .proImg{
     width:100%;
-    border-radius:12px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    height: 100%;
+    object-fit: contain;
+    
+    
     
     
 }
@@ -33,7 +50,7 @@
     }
     .proImg{
         height: 120px;
-        object-fit: cover;
+        object-fit: contain;
     }
 }
 @media (min-width: 481px) and (max-width: 768px) {
@@ -43,8 +60,8 @@
         flex: 0 0 auto;
     }
     .proImg{
-        height: 140px;
-        object-fit: cover;
+        height: 160px;
+        object-fit: contain;
     }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -54,7 +71,7 @@
         flex: 0 0 auto;
     }
     .proImg{
-        height: 160px;
-        object-fit: cover;
+        height: 180px;
+        object-fit: contain;
     }
 }

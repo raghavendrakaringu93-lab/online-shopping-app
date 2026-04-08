@@ -1,121 +1,27 @@
-export const booksData = [{
-        "id": "1",
-        "product": "Book",
-        "image": "/assets/Books/1.jpg",
-        "title": "The Great Gatsby",
-        "author": "F. Scott Fitzgerald",
-        "price": "12.99",
-        "category": "Literature",
-        "description": "A classic novel portraying the decadence of the 1920s American society."
-    },
-    {
-        "id": "2",
-        "product": "Book",
-        "image": "/assets/Books/2.jpg",
-        "title": "To Kill a Mockingbird",
-        "author": "Harper Lee",
-        "price": "10.50",
-        "category": "Literature",
-        "description": "A powerful story addressing racial injustice and moral growth in the American South."
-    },
-    {
-        "id": "3",
-        "product": "Book",
-        "image": "/assets/Books/3.jpg",
-        "title": "1984",
-        "author": "George Orwell",
-        "price": "9.99",
-        "category": "Dystopian Fiction",
-        "description": "A classic dystopian novel depicting a totalitarian society and government control."
-    },
-    {
-        "id": "4",
-        "product": "Book",
-        "image": "/assets/Books/4.jpg",
-        "title": "Pride and Prejudice",
-        "author": "Jane Austen",
-        "price": "8.75",
-        "category": "Romance",
-        "description": "A beloved romance novel exploring societal norms and personal relationships."
-    },
-    {
-        "id": "5",
-        "product": "Book",
-        "image": "/assets/Books/5.jpg",
-        "title": "The Hobbit",
-        "author": "J.R.R. Tolkien",
-        "price": "14.99",
-        "category": "Fantasy",
-        "description": "An adventurous fantasy novel following Bilbo Baggins on a quest to reclaim treasure from a dragon."
-    },
-    {
-        "id": "6",
-        "product": "Book",
-        "image": "/assets/Books/6.jpg",
-        "title": "Harry Potter and the Sorcerer's Stone",
-        "author": "J.K. Rowling",
-        "price": "11.25",
-        "category": "Fantasy",
-        "description": "The first book in the Harry Potter series, introducing the magical world of wizards and witches."
-    },
-    {
-        "id": "7",
-        "product": "Book",
-        "image": "/assets/Books/7.jpg",
-        "title": "The Catcher in the Rye",
-        "author": "J.D. Salinger",
-        "price": "9.50",
-        "category": "Coming-of-age",
-        "description": "A classic coming-of-age novel narrated by Holden Caulfield, a disenchanted teenager."
-    },
-    {
-        "id": "8",
-        "product": "Book",
-        "image": "/assets/Books/8.jpg",
-        "title": "The Lord of the Rings",
-        "author": "J.R.R. Tolkien",
-        "price": "24.99",
-        "category": "Fantasy",
-        "description": "An epic fantasy trilogy chronicling the quest to destroy the One Ring and save Middle-earth."
-    },
-    {
-        "id": "9",
-        "product": "Book",
-        "image": "/assets/Books/9.jpg",
-        "title": "The Hunger Games",
-        "author": "Suzanne Collins",
-        "price": "13.75",
-        "category": "Dystopian Fiction",
-        "description": "The first book in a dystopian trilogy where teenagers are forced to participate in a televised fight to the death."
-    },
-    {
-        "id": "10",
-        "product": "Book",
-        "image": "/assets/Books/10.jpg",
-        "title": "Brave New World",
-        "author": "Aldous Huxley",
-        "price": "10.99",
-        "category": "Dystopian Fiction",
-        "description": "A thought-provoking novel depicting a future society where technology and conformity reign."
-    },
-    {
-        "id": "11",
-        "product": "Book",
-        "image": "/assets/Books/11.jpg",
-        "title": "The Alchemist",
-        "author": "Paulo Coelho",
-        "price": "7.99",
-        "category": "Philosophical Fiction",
-        "description": "A philosophical novel about a shepherd's journey to find his personal legend and purpose in life."
-    },
-    {
-        "id": "12",
-        "product": "Book",
-        "image": "/assets/Books/12.jpg",
-        "title": "The Girl on the Train",
-        "author": "Paula Hawkins",
-        "price": "9.25",
-        "category": "Mystery",
-        "description": "A gripping psychological thriller centered around a woman who becomes involved in a missing person's case."
-    }
-]
+import img1 from "../../../public/assets/Books/1.jpg";
+import img2 from "../../../public/assets/Books/2.jpg";
+import img3 from "../../../public/assets/Books/3.jpg";
+import img4 from "../../../public/assets/Books/4.jpg";
+import img5 from "../../../public/assets/Books/5.jpg";
+import img6 from "../../../public/assets/Books/6.jpg";
+import img7 from "../../../public/assets/Books/7.jpg";
+import img8 from "../../../public/assets/Books/8.jpg";
+import img9 from "../../../public/assets/Books/9.jpg";
+import img10 from "../../../public/assets/Books/10.jpg";
+import img11 from "../../../public/assets/Books/11.jpg";
+import img12 from "../../../public/assets/Books/12.jpg";
+
+export const booksData = [
+{ id:"1", image: img1, title:"The Great Gatsby", author:"F. Scott Fitzgerald", price:"12.99", description: "Classic novel capturing Jazz Age excess and American dream through compelling characters and elegant prose." },
+{ id:"2", image: img2, title:"To Kill a Mockingbird", author:"Harper Lee", price:"10.50", description: "Profound exploration of racial injustice morality and childhood innocence in American Deep South." },
+{ id:"3", image: img3, title:"1984", author:"George Orwell", price:"9.99", description: "Dystopian masterpiece depicting totalitarian surveillance society and individual resistance against governmental control systems." },
+{ id:"4", image: img4, title:"Pride and Prejudice", author:"Jane Austen", price:"8.75", description: "Witty romantic novel exploring social class marriage expectations and personal growth through relationships." },
+{ id:"5", image: img5, title:"The Hobbit", author:"J.R.R. Tolkien", price:"14.99", description: "Adventure fantasy featuring unlikely hero on epic quest through Middle-earth filled with wonder." },
+{ id:"6", image: img6, title:"Harry Potter and the Sorcerer's Stone", author:"J.K. Rowling", price:"11.25", description: "Magical tale of young wizard discovering his powers and making lifelong friends in school." },
+{ id:"7", image: img7, title:"The Catcher in the Rye", author:"J.D. Salinger", price:"9.50", description: "Coming-of-age story exploring teenage alienation identity search and struggle against societal conformity." },
+{ id:"8", image: img8, title:"The Lord of the Rings", author:"J.R.R. Tolkien", price:"24.99", description: "Epic fantasy trilogy following perilous quest to destroy magical ring and defeat darkness." },
+{ id:"9", image: img9, title:"The Hunger Games", author:"Suzanne Collins", price:"13.75", description: "Dystopian thriller depicting deadly survival competition and rebellion against oppressive authoritarian regime." },
+{ id:"10", image: img10, title:"Brave New World", author:"Aldous Huxley", price:"10.99", description: "Thought-provoking dystopia exploring future society sacrificing freedom for stability and contentment." },
+{ id:"11", image: img11, title:"The Alchemist", author:"Paulo Coelho", price:"7.99", description: "Philosophical adventure about pursuing dreams following personal legend and discovering inner wisdom." },
+{ id:"12", image: img12, title:"The Girl on the Train", author:"Paula Hawkins", price:"9.25", description: "Psychological thriller featuring unreliable narrator unraveling mystery through fragmented memories and observations." }
+];
